@@ -1,0 +1,13 @@
+body{
+    background-color: #F4F8FF;
+}
+
+.video_card{
+    border-radius: 25px;
+    padding: 5%;
+    background-color: #BBDDFF;
+}
+
+.title{
+    text-align: center;
+}
