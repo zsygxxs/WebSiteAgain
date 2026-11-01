@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,16 +7,41 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 class="title">CuiKeCui</h1>
-    <hr>
-    <a href="https://space.bilibili.com/524009767" target="_blank">bilibili: @脆可脆非常脆</a>
-    <hr>
+    <main class="container">
+        <h1 class="title">CuiKeCui</h1>
 
-    <em>进入施工现场<br>必须佩戴安全帽</em>
-    <div class="video_card">
-        <p>神意</p>
-        <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=943683198&bvid=BV1hW4y1e7Kx&cid=851080800&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
-    </div>
-    
+        <a class="link-button"
+           href="https://space.bilibili.com/524009767"
+           target="_blank"
+           rel="noopener noreferrer">
+            bilibili: @脆可脆非常脆
+        </a>
+
+        <p class="notice">
+            进入施工现场<br>
+            必须佩戴安全帽
+        </p>
+
+        <section class="video-card" aria-labelledby="video-title">
+            <h2 class="card-title" id="video-title">神意</h2>
+
+            <div class="video-frame">
+                <iframe
+                    src="https://player.bilibili.com/player.html?isOutside=true&aid=943683198&bvid=BV1hW4y1e7Kx&cid=851080800&p=1"
+                    title="神意 Bilibili 视频"
+                    scrolling="no"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </section>
+
+        <figure class="photo-card">
+            <figcaption class="card-title">1927 年索尔维会议</figcaption>
+            <img
+                src="Solvay_conference_1927.jpg"
+                alt="1927 年第五届索尔维会议参会者合影"
+                loading="lazy">
+        </figure>
+    </main>
 </body>
 </html>
